@@ -222,4 +222,8 @@
     return @"https://white-pan-cn.oss-cn-hangzhou.aliyuncs.com/124/image/image.png";
 }
 
+- (void)sdkSetupFail:(NSError *)error {
+    NSLog(@"sdkSetupFail: %@", error.userInfo);
+}
+
 @end
